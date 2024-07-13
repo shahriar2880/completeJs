@@ -9,9 +9,10 @@ var student = {
 // console.log(student.name);
 // console.log(student.cgpa);
 // console.log(student.dept);
+delete student.name
 
-student.id = '192-35-0001'
-// console.log(student.id)
+//student.id = '192-35-0001'
+//console.log(student.id)
 
 var student_id = student.id;
 // console.log(student_id);
