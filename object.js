@@ -1,15 +1,28 @@
 var student = {
     id: '192-35-2880',
-    name: 'shahriar',
+    firstName: 'shahriar',
+    lastName: 'Reza',
     cgpa: 3.47,
-    dept: 'Software Engineering'
+    dept: 'Software Engineering',
+    fullName: function(){
+        // this.firstName means the firstName property of student.
+        return this.firstName + " " + this.lastName;
+    },
+    myCars: {
+        car1:"Ford",
+        car2:"BMW",
+        car3:"Fiat"
+      }
 }
 // console.log(student);
 // console.log(student.id);
 // console.log(student.name);
 // console.log(student.cgpa);
 // console.log(student.dept);
-delete student.name
+// delete student.name
+//console.log(student)
+console.log(student.fullName)
+console.log(student.myCars.car1)
 
 //student.id = '192-35-0001'
 //console.log(student.id)
@@ -38,4 +51,4 @@ student['cgpa'] = 3.67;
 // console.log(student)
 
 student[property_name] = 3.9;
-console.log(student);
+//console.log(student);

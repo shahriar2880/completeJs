@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <script>
+      var person = {
+        firstName: "Shahriar Reza",
+        lastName: " Shakil",
+        age: 25,
+        dept: "Software Engineering",
+        cgpa: 3.46,
+      };
+      person.nationality = "Bangladeshi"
+      //let myString = JSON.stringify(person);
+      //const myPerson = Object.values(person)
+      document.getElementById("demo").innerHTML =
+      //myString;
+      //----- person object er vitorer value gulo print korbe
+      //myPerson
+      person.firstName + person.lastName + " is " + person.age + " years old." +" He is a "+ person.nationality;
+    </script>
+  </body>
+</html>
