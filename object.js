@@ -52,3 +52,22 @@ student['cgpa'] = 3.67;
 
 student[property_name] = 3.9;
 //console.log(student);
+
+
+//create an empty object
+const person= {};
+
+//add properties
+person.firstName = "John";
+person.lastName = "Doe";
+
+console.log(person.firstName, person.lastName)
+
+//Create an empty JavaScript object using new Object()
+const add = new Object()
+add.num1 = 2;
+add.num2 = 3;
+
+const result = add.num1 + add.num2;
+
+console.log(result)
