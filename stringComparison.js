@@ -7,4 +7,6 @@ const userinput = 'shahriar436';
  else{
     console.log('Invalid user')
  }
- 
+
+ const date = new Date( );
+ console.log(date)
